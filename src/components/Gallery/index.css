@@ -1,0 +1,29 @@
+/* Write your code here. */
+.whole-container {
+  background-color: #ffffff;
+  padding: 5%;
+}
+.main-image {
+  min-width: 180px;
+  min-height: 150px;
+  width: 250px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .main-image {
+    width: 450px;
+    height: 300px;
+  }
+}
+h1 {
+  color: #1e293b;
+}
+p {
+  color: #64748b;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
